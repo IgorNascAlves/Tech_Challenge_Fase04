@@ -1,4 +1,4 @@
-# Indice
+# Índice
 - [O Problema](#o-problema)
 - [Cronograma](#cronograma)
   - [Tarefas](#tarefas)
