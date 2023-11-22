@@ -30,17 +30,19 @@ Um grande cliente do segmento pediu para que a consultoria desenvolvesse um dash
 
 | Data | Semana | Atividade |
 | --- | --- | --- |
-| 13/11 | Semana 7 | Download base, montar cronograma e criar repositório |
-| 20/11 | Semana 6 | Análise exploratória |
-| 27/11 | Semana 5 | Criar um dashboard |
-| 04/12 | Semana 4 | Modelo de Machine Learning |
-| 11/12 | Semana 3 | MVP Streamlit |
-| 18/12 | Semana 2 | Criar relatório |
-| 25/12 | Semana - | Sem atividades |
-| 01/01 | Semana - | Sem atividades |
-| 08/01 | Semana 1 | Ajustes finais |
-| 12/01 | Semana 1 | Entregar o projeto |
-| 15/01 | Semana 0 | Data Final |
+| 13/11 | ~Semana 9~ | ~Download base, montar cronograma e criar repositório~ |
+| 20/11 | Semana 8 | Análise exploratória |
+| 27/11 | Semana 7 | Criar um dashboard |
+| 04/12 | Semana 6 | Modelo de Machine Learning |
+| 11/12 | Semana 5 | MVP Streamlit |
+| 18/12 | Semana 4 | Criar relatório |
+| 25/12 | Semana - | **Sem atividades** |
+| 01/01 | Semana - | **Sem atividades** |
+| 08/01 | Semana 3 | A definir |
+| 15/01 | Semana 2 | A definir |
+| 22/01 | Semana 1 | Ajustes finais |
+| 26/01 | Semana 1 | Entregar o projeto |
+| 29/01 | Semana 0 | Data Final |
 
 
 ## Tarefas
