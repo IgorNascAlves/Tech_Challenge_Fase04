@@ -51,7 +51,7 @@ Um grande cliente do segmento pediu para que a consultoria desenvolvesse um dash
 - [x] Download base 
 - [x] Montar cronograma 
 - [x] Criar repositório
-- [ ] Base de dados
+- [x] Base de dados
 - [ ] Análise exploratória
 - [ ] Criar um dashboard
 - [ ] Modelo de Machine Learning
