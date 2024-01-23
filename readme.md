@@ -63,8 +63,7 @@ Um grande cliente do segmento pediu para que a consultoria desenvolvesse um dash
 
 # Arquitetura
 
-![Sem título-2023-06-29-1431](https://github.com/IgorNascAlves/Tech_Challenge_Fase04/assets/26041581/49577617-181e-49c3-a970-60843eddeb59)
-
+![Sem título-2023-06-29-1431](https://github.com/IgorNascAlves/Tech_Challenge_Fase04/assets/26041581/92df162a-02d1-4cdd-a391-47bbe56b1746)
 
 # Estrutura de pastas
 
