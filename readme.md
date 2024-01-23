@@ -2,6 +2,7 @@
 - [O Problema](#o-problema)
 - [Cronograma](#cronograma)
   - [Tarefas](#tarefas)
+- [Arquitetura](#arquitetura)
 - [Estrutura de pastas](#estrutura-de-pastas)
 - [Referências](#referências)
 
@@ -59,6 +60,10 @@ Um grande cliente do segmento pediu para que a consultoria desenvolvesse um dash
 - [ ] Criar relatório
 - [ ] Ajustes finais
 - [ ] Entregar o projeto
+
+# Arquitetura
+
+![Sem título-2023-06-29-1431](https://github.com/IgorNascAlves/Tech_Challenge_Fase04/assets/26041581/92df162a-02d1-4cdd-a391-47bbe56b1746)
 
 # Estrutura de pastas
 
