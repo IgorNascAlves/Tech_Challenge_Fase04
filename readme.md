@@ -32,17 +32,17 @@ Um grande cliente do segmento pediu para que a consultoria desenvolvesse um dash
 | Data | Semana | Atividade |
 | --- | --- | --- |
 | 13/11 | ~Semana 9~ | ~Download base, montar cronograma e criar repositório~ |
-| 20/11 | ~Semana 8~ |  |
-| 27/11 | ~Semana 7~ |  |
-| 04/12 | ~Semana 6~ |  |
-| 11/12 | ~Semana 5~ |  |
-| 18/12 | Semana 4 | Análise exploratória |
-| 25/12 | Semana - |  Modelo de Machine Learning |
-| 01/01 | Semana - | MVP Streamlit |
-| 08/01 | Semana 3 | Criar um dashboard |
-| 15/01 | Semana 2 | Criar relatório |
-| 22/01 | Semana 1 | Ajustes finais |
-| 26/01 | Semana 1 | Entregar o projeto |
+| 20/11 | ~Semana 8~ | Análise exploratória |
+| 27/11 | ~Semana 7~ | Análise exploratória |
+| 04/12 | ~Semana 6~ | Modelo de Machine Learning |
+| 11/12 | ~Semana 5~ | Modelo de Machine Learning |
+| 18/12 | ~Semana 4~ | MVP Streamlit |
+| 25/12 | ~Semana~ - |  |
+| 01/01 | ~Semana~ - |  |
+| 08/01 | ~Semana 3~ | Criar um dashboard |
+| 15/01 | ~Semana 2~ | Criar relatório |
+| 22/01 | ~Semana 1~ | Ajustes finais |
+| 26/01 | ~Semana 1~ | Entregar o projeto |
 | 29/01 | Semana 0 | Data Final |
 
 
@@ -56,7 +56,7 @@ Um grande cliente do segmento pediu para que a consultoria desenvolvesse um dash
 - [x] Criar um dashboard
 - [x] Modelo de Machine Learning
 - [x] Plano de deploy em produção do modelo
-- [ ] MVP Streamlit
+- [X] MVP Streamlit
 - [ ] 4 in-sights sobre o desafio
 - [ ] Criar relatório
 - [ ] Ajustes finais
