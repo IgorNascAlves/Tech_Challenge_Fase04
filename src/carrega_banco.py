@@ -23,7 +23,7 @@ def carrega_conexao():
 def le_csv(arquivo):
     with open(arquivo, 'r') as f:
         leitor = csv.reader(f, delimiter=';')
-        next(leitor)
+        # next(leitor)
         dados = []
         for linha in leitor:
             data = linha[0]

@@ -17,9 +17,10 @@ def preprocess_data(df, train_data_size, forecast_steps):
 
 def train_arima_model(train_data):
     arima_model = ARIMA(train_data, order=(2, 1, 2))
-    with warnings.catch_warnings():
-        warnings.filterwarnings("ignore")  # Silence ConvergenceWarning
-        arima_model_trained = arima_model.fit()
+    # with warnings.catch_warnings():
+    #     warnings.filterwarnings("ignore")  # Silence ConvergenceWarning
+    #     arima_model_trained = arima_model.fit()
+    arima_model_trained = arima_model.fit()
     return arima_model_trained
 
 def forecast_arima_model(arima_model_trained, last_date, forecast_steps):
@@ -30,9 +31,10 @@ def forecast_arima_model(arima_model_trained, last_date, forecast_steps):
 
 def train_sarima_model(train_data):
     sarima_model = SARIMAX(train_data, order=(2, 1, 2), seasonal_order=(1, 1, 1, 5))
-    with warnings.catch_warnings():
-        warnings.filterwarnings("ignore")  # Silence ConvergenceWarning
-        sarima_model_trained = sarima_model.fit()
+    # with warnings.catch_warnings():
+    #     warnings.filterwarnings("ignore")  # Silence ConvergenceWarning
+    #     sarima_model_trained = sarima_model.fit()
+    sarima_model_trained = sarima_model.fit()
     return sarima_model_trained
 
 def forecast_sarima_model(sarima_model_trained, last_date, forecast_steps):

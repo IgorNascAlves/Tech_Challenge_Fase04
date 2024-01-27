@@ -8,7 +8,7 @@ def salva_dados(df, file_name):
     df.to_csv(f'data/{file_name}', index=False, sep=';', encoding='latin-1')
 
     # subscrever o ultimo arquivo com os dados atualizados
-    df.to_csv('data/ipeadata_last.csv', index=False, sep=';', encoding='latin-1')
+    df.to_csv('data/ipeadata_last.csv', index=False, sep=';', encoding='latin-1', header=False)
 
 def carrega_dados(url, nome_colunas):
     # Reading data from IPEADATA
