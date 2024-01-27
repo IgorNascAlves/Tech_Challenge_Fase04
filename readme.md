@@ -52,10 +52,10 @@ Um grande cliente do segmento pediu para que a consultoria desenvolvesse um dash
 - [x] Montar cronograma 
 - [x] Criar repositório
 - [x] Base de dados
-- [ ] Análise exploratória
-- [ ] Criar um dashboard
-- [ ] Modelo de Machine Learning
-- [ ] Plano de deploy em produção do modelo
+- [x] Análise exploratória
+- [x] Criar um dashboard
+- [x] Modelo de Machine Learning
+- [x] Plano de deploy em produção do modelo
 - [ ] MVP Streamlit
 - [ ] 4 in-sights sobre o desafio
 - [ ] Criar relatório
@@ -64,7 +64,7 @@ Um grande cliente do segmento pediu para que a consultoria desenvolvesse um dash
 
 # Arquitetura
 
-![Sem título-2023-06-29-1431](https://github.com/IgorNascAlves/Tech_Challenge_Fase04/assets/26041581/92df162a-02d1-4cdd-a391-47bbe56b1746)
+![Sem título-2023-06-29-1431](/imgs/diagrama_projeto.png)
 
 # Estrutura de pastas
 

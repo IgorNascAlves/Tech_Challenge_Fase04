@@ -3,20 +3,37 @@ from pydantic import BaseModel
 from typing import List
 import joblib
 from datetime import datetime
+import pandas as pd
 
 app = FastAPI()
 
+class Previsao(BaseModel):
+    data: str
+    valor: float
+
 class ForecastResponse(BaseModel):
-    model: str
-    forecast_steps: int
-    predictions: List[float]
+    value: List[Previsao]
 
 def load_model(file_path):
     return joblib.load(file_path)
 
 def forecast_loaded_model(model, last_date, forecast_steps):
+    dates = pd.date_range(start=last_date, periods=forecast_steps, freq='B').to_list()
     forecast = model.get_forecast(steps=forecast_steps)
-    return forecast.predicted_mean.values
+
+    values = [Previsao(data=dates[i].strftime('%d/%m/%Y'), valor=forecast.predicted_mean.values[i]) for i in range(len(dates))]
+
+    return values
+
+def get_last_date():
+    path = 'data\ipeadata_last.csv'  # Adjust the path accordingly
+    #read the first value of the csv file
+    with open(path, 'r') as f:
+        first_line = f.readline()
+        #get the date of the first value
+        first_date = first_line.split(';')[0]
+        last_date = datetime.strptime(first_date, '%Y-%m-%d') + pd.DateOffset(days=1)
+    return last_date.date().strftime('%d/%m/%Y')
 
 @app.get("/forecast", response_model=ForecastResponse)
 def forecast(forecast_steps: int):
@@ -27,14 +44,11 @@ def forecast(forecast_steps: int):
     loaded_model = load_model(file_path)
 
     # Use the last date from your data or generate it based on the available data
-    last_date = datetime.now()  # Replace this with the actual last date
-
-    forecast_values = forecast_loaded_model(loaded_model, last_date, forecast_steps)
+    last_date = get_last_date()
+    values = forecast_loaded_model(loaded_model, last_date, forecast_steps)
 
     response = ForecastResponse(
-        model='Best Model (SARIMA)',  # Adjust accordingly based on your analysis
-        forecast_steps=forecast_steps,
-        predictions=forecast_values.tolist()
+        value=values
     )
 
     return response
