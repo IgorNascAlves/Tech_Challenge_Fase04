@@ -57,8 +57,8 @@ Um grande cliente do segmento pediu para que a consultoria desenvolvesse um dash
 - [x] Modelo de Machine Learning
 - [x] Plano de deploy em produção do modelo
 - [X] MVP Streamlit
-- [ ] 4 in-sights sobre o desafio
-- [ ] Criar relatório
+- [X] 4 in-sights sobre o desafio
+- [X] Criar relatório
 - [ ] Ajustes finais
 - [ ] Entregar o projeto
 
