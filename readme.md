@@ -59,7 +59,7 @@ Um grande cliente do segmento pediu para que a consultoria desenvolvesse um dash
 - [X] MVP Streamlit
 - [X] 4 in-sights sobre o desafio
 - [X] Criar relatório
-- [ ] Ajustes finais
+- [X] Ajustes finais
 - [ ] Entregar o projeto
 
 # Arquitetura
